@@ -9,6 +9,11 @@
 
 body {
     font-family: "Ubuntu", sans-serif;
+    background-image: url("./imgs/home.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed
 }
 
 html {
@@ -32,8 +37,30 @@ nav,
     display: flex;
 }
 
+nav,
+.logo {
+    color: white;
+}
+
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 17vh; /* view height, takes 17% of height */
+}
+/* affects nav-links positioning */
+.nav-links {
+    gap: 2rem; /* unit of measurement in frontend */
+    list-style: none;
+    font-size: 1.5rem;
+}
+/* affects nav-links style */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
 }
