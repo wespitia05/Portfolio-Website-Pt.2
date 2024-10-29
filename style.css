@@ -60,7 +60,7 @@ a {
 }
 
 a:hover {
-    color: red;
+    color: rgb(131, 190, 253);
     text-decoration: underline;
     text-underline-offset: 0.5rem;
     text-decoration-color: rgb(181, 181, 181);
@@ -208,7 +208,7 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
-    color: rgb(88, 87, 86);
+    color: rgb(131, 190, 253)
 }
 
 .btn-container {
@@ -221,14 +221,12 @@ section {
     padding: 5px;
     border: 2px solid white;
     border-radius: 10px;
+    transform-origin: center;
 }
 
 .btn-container a:hover {
     width: auto;
     background: #081b29;
     justify-content: center;
+    color: rgb(131, 190, 253);
 }
-
-
-
-
