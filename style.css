@@ -20,10 +20,6 @@ html {
     scroll-behavior: smooth;
 }
 
-p {
-    color: rgb(85,85,85);
-}
-
 /* transition */
 
 a, .btn {
@@ -59,7 +55,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.nav-links a:hover {
     color: rgb(131, 190, 253);
     text-decoration: underline;
     text-underline-offset: 0.5rem;
@@ -213,8 +209,8 @@ section {
 
 .btn-container {
     display: flex;
-    gap: 1rem;
-    font-size: 18px;
+    gap: .80rem;
+    font-size: 20px;
 }
 
 .btn-container a {
@@ -224,9 +220,62 @@ section {
     transform-origin: center;
 }
 
+.btn-container i {
+    padding-right: 4px;
+    padding-top: 2px;
+}
+
 .btn-container a:hover {
     width: auto;
     background: #081b29;
     justify-content: center;
     color: rgb(131, 190, 253);
 }
+
+/* about section */
+
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-details-container i {
+    font-size: 25px;
+}
+
+.about-containers, 
+.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.about-next-location {
+    position: absolute;
+    right: -8rem;
+    bottom: -0.5rem;
+    font-size: 50px;
+}
+
+.details-container {
+    padding: 0.5rem;
+    flex: 1;
+    background: transparent;
+    border-radius: 2rem;
+    border: rgb(131, 190, 253) 0.2rem solid;
+    text-align: center;
+    color: lightgrey;
+}
+
