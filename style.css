@@ -238,6 +238,12 @@ section {
     position: relative;
 }
 
+.about_text_p1 {
+    text-align: center;
+    color: lightgrey;
+    font-size: 1.25rem;
+}
+
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
@@ -279,3 +285,24 @@ section {
     color: lightgrey;
 }
 
+.section-container {
+    gap: 4rem;
+    height: 75%;
+}
+
+.section_pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.text-container h3 {
+    font-size: 25px;
+    color: rgb(131, 190, 253);
+    padding: 5px;
+}
+
+.text-container p {
+    color: lightgrey;
+    font-size: 18.5px;
+}
