@@ -163,6 +163,7 @@ section {
 }
 
 /* profile section */
+
 #profile {
     display: flex;
     justify-content: center;
@@ -306,3 +307,73 @@ section {
     color: lightgrey;
     font-size: 18.5px;
 }
+
+/* experience section */
+
+#experience {
+    position: relative;
+}
+
+.experience_text_p1 {
+    text-align: center;
+    color: lightgrey;
+    font-size: 1.25rem;
+}
+
+.experience-containers {
+    display: flex;
+    gap: 8rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.job-1 {
+    img {
+        border-radius: 2rem;
+    }
+    h3 {
+        font-size: 25px;
+        color: rgb(131, 190, 253);
+    }
+    font-size: 19px;
+    color: lightgrey;
+    text-align: center;
+    border: rgb(131, 190, 253) 0.2rem solid;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.job-2 {
+    img {
+        border-radius: 2rem;
+    }
+    h3 {
+        font-size: 25px;
+        color: rgb(131, 190, 253);
+    }
+    font-size: 20px;
+    color: lightgrey;
+    text-align: center;
+    border: rgb(131, 190, 253) 0.2rem solid;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.job-3 {
+    img {
+        border-radius: 2rem;
+    }
+    h3 {
+        font-size: 25px;
+        color: rgb(131, 190, 253);
+        align-items: center;
+    }
+    font-size: 20px;
+    color: lightgrey;
+    text-align: center;
+    border: rgb(131, 190, 253) 0.2rem solid;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
