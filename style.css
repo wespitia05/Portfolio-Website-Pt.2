@@ -243,6 +243,7 @@ section {
     text-align: center;
     color: lightgrey;
     font-size: 1.25rem;
+    margin-top: 2rem;
 }
 
 .about-containers {
@@ -344,6 +345,12 @@ section {
     padding: 1rem;
 }
 
+.job-1:hover {
+    background-color: black;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
 .job-2 {
     img {
         border-radius: 2rem;
@@ -358,6 +365,12 @@ section {
     border: rgb(131, 190, 253) 0.2rem solid;
     border-radius: 2rem;
     padding: 1rem;
+}
+
+.job-2:hover {
+    background-color: black;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
 }
 
 .job-3 {
@@ -377,3 +390,8 @@ section {
     padding: 1rem;
 }
 
+.job-3:hover {
+    background-color: black;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
