@@ -5,7 +5,12 @@ function toggleMenu() {
     icon.classList.toggle("open");
 }
 
-function toggleJob() {
-    const job = document.querySelector(".experience-containers");
-    job.classList.toggle("open");
+function toggleJob(container) {
+    container.classList.toggle("expanded");
+    // reset other containers if only one should be expanded at a time
+    document.querySelectorAll('.job-container').forEach(job => {
+        if (job !== container) {
+            job.classList.remove('expanded');
+        }
+    });
 }
