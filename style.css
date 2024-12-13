@@ -329,7 +329,7 @@ section {
     justify-content: center;
 }
 
-.job-1 {
+.job-1-content {
     img {
         border-radius: 2rem;
     }
@@ -345,25 +345,40 @@ section {
     padding: 1rem;
 }
 
-.job1-details {
+.job-1-details {
     display: none;
+    text-align: left;
+    padding-top: 5px;
 }
 
-.job-1:hover {
+.job-1-content:hover {
     background-color: black;
     transition: all 0.2s ease-in-out;
     transform: scale(1.1);
 }
 
 .job-1-content.expanded {
-    transform: scale(1.5);
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
 }
 
-.job-1-content.expanded .job-1 {
+.job-1-content.expanded {
     img {
         width: 100px;
         height: 100px;
+        border-radius: 1rem;
     }
+    h3 {
+        font-size: 19px;
+    }
+    font-size: 14px;
+}
+
+.job-1-content.expanded .job-1-details {
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 13px;
 }
 
 .job-2 {
