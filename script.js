@@ -8,7 +8,7 @@ function toggleMenu() {
 function toggleJob(container) {
     container.classList.toggle("expanded");
     // reset other containers if only one should be expanded at a time
-    document.querySelectorAll('.job-container').forEach(job => {
+    document.querySelectorAll('.job-1-content, .job-2-content, .job-3-content').forEach(job => {
         if (job !== container) {
             job.classList.remove('expanded');
         }
