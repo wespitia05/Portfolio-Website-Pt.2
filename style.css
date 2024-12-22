@@ -189,6 +189,7 @@ section {
         height: 400px;
         width: 400px;
         border-radius: 3rem;
+        margin-left: 40px;
     }
 }
 
@@ -196,7 +197,7 @@ section {
     text-align: center;
     color: lightgrey;
     font-size: 1.25rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .about-containers {
@@ -266,7 +267,7 @@ section {
     text-align: center;
     color: lightgrey;
     font-size: 1.25rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .experience-containers {

@@ -63,6 +63,13 @@
     }
 }
 
+@media (max-width:860px) {
+    #experience {
+        .experience-containers {
+        }
+    }
+}
+
 @media (max-width: 778px) {
     #desktop-nav {
         gap: 5rem;
@@ -113,26 +120,27 @@
 
 @media (max-width: 620px) {
     #about {
-        margin: 5px;
+        margin: 10px;
         .about_text_p1 {
             font-size: 1rem;
             padding-top: -20px;
         }
         .title {
-            font-size: 2rem;
+            font-size: 3rem;
         }
         .section-container {
             gap: 0.25rem;
             .about-pic {
-                width: 250px;
-                height: 250px;
-                margin-top: -10px;
+                width: 275px;
+                height: 275px;
+                margin-top: -40px;
                 margin-left: 15%;
             }
             .about-containers {
                 gap: 1rem;
                 flex-direction: column;
                 margin: 45px;
+                margin-top: -30px;
                 padding-left: 50px;
             }
             .about-containers,
@@ -141,10 +149,11 @@
             }
             .text-container {
                 gap: 1rem;
-                margin-top: 0;
-                margin: 0;
+                margin-top: -20px;
+                margin-left: -225px;
+                margin-right: 40px;
                 p {
-                    font-size: 15px;
+                    font-size: 18px;
                 }
             }
         }
