@@ -9,6 +9,33 @@
     }
 }
 
+@media (max-width:1180px) {
+    .experience-containers {
+        gap: 3rem;
+        margin: 0;
+        width: 100%;
+        job-1-content.expanded {
+            width: 100%;
+            background: black;
+        }
+    }
+}
+
+@media (max-width:1000px) {
+    .experience-containers {
+        gap: 3rem;
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width:860px) {
+    .experience-containers {
+        gap: 1rem;
+        margin-top: 0;
+        flex-direction: column;
+    }
+}
+
 @media (max-width:980px) {
     #profile {
         gap: 1rem;
@@ -23,6 +50,10 @@
     }  
     #about {
         margin: 20px;
+    }
+    .experience-containers {
+        gap: 1rem;
+        
     }
 }
 

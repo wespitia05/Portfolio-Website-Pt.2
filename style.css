@@ -196,13 +196,18 @@ section {
     text-align: center;
     color: lightgrey;
     font-size: 1.25rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+}
+.details-container:hover {
+    background-color: black;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.05);
 }
 
 .about-details-container {
@@ -261,12 +266,13 @@ section {
     text-align: center;
     color: lightgrey;
     font-size: 1.25rem;
+    margin-top: 1rem;
 }
 
 .experience-containers {
     display: flex;
-    gap: 8rem;
-    margin-top: 5rem;
+    gap: 4rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     justify-content: center;
     align-items: flex-start;
