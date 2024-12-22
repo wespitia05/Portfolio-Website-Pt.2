@@ -109,15 +109,17 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 3rem;
     height: 100vh;
-}
-
-.section_pic-container {
-    display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+    .section_pic-container {
+        align-self: center;
+    }
+    .profile-pic {
+        display: flex;
+        height: 400px;
+        width: 400px;
+        border-radius: 3rem;
+    }
 }
 
 .section_text {
