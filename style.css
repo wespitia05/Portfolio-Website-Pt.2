@@ -181,6 +181,15 @@ section {
 
 #about {
     position: relative;
+    .section_pic-container {
+        align-self: center;
+    }
+    .about-pic {
+        display: flex;
+        height: 400px;
+        width: 400px;
+        border-radius: 3rem;
+    }
 }
 
 .about_text_p1 {
@@ -208,17 +217,6 @@ section {
 .about-containers, 
 .about-details-container {
     display: flex;
-}
-
-.about-pic {
-    border-radius: 2rem;
-}
-
-.about-next-location {
-    position: absolute;
-    right: -8rem;
-    bottom: -0.5rem;
-    font-size: 50px;
 }
 
 .details-container {
