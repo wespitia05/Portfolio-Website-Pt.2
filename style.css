@@ -435,6 +435,8 @@ section {
     color: white;
     font-size: 13px;
 }
+
+/* scroll bar section */
 ::-webkit-scrollbar {
     width: 15px;
 }
@@ -447,3 +449,47 @@ section {
     background: linear-gradient(to bottom, #009dff, #ff00ff);
 }
 
+/* skills section */
+#skills {
+    position: relative;
+}
+
+.skills-text-p1 {
+    text-align: center;
+    color: lightgrey;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+.skills-containers {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 1rem;
+    i {
+        font-size: 30px;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.programming-skills {
+    border: rgb(131, 190, 253) 0.2rem solid;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    h3 {
+        margin-bottom: 1rem;
+    }
+}
+
+.engineering-skills {
+    border: rgb(131, 190, 253) 0.2rem solid;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    h3 {
+        margin-bottom: 1rem;
+    }
+}
