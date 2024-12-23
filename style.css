@@ -197,7 +197,7 @@ section {
     text-align: center;
     color: lightgrey;
     font-size: 1.25rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .about-containers {
@@ -260,14 +260,14 @@ section {
 /* experience section */
 
 #experience {
-    position: relative;
+    position: flex;
 }
 
 .experience_text_p1 {
     text-align: center;
     color: lightgrey;
     font-size: 1.25rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .experience-containers {
@@ -414,7 +414,7 @@ section {
 
 .job-3-content.expanded {
     transform: scale(1.2);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .job-3-content.expanded {
@@ -466,6 +466,7 @@ section {
     justify-content: center;
     gap: 3rem;
     margin-top: 1rem;
+    width: 100%;
     i {
         font-size: 30px;
         margin-bottom: 0.5rem;

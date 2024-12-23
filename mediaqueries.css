@@ -7,17 +7,26 @@
     #about {
         margin: 20px;
     }
+    #experience {
+        margin-left: 50px;
+        margin-right: 50px;
+        .experience_text_p1 {
+            margin-top: 30px;
+        }
+        .title {
+            margin-bottom: 20px;
+        }
+        .experience-containers {
+            gap: 2rem;
+        }
+    }
 }
 
 @media (max-width:1180px) {
     .experience-containers {
-        gap: 3rem;
+        gap: 2rem;
         margin: 0;
         width: 100%;
-        job-1-content.expanded {
-            width: 100%;
-            background: black;
-        }
     }
 }
 
